@@ -1,0 +1,11 @@
+message,historical_severity,system,predicted_severity,impact,risk,intelligent_priority_score
+Multiple failed login attempts detected,critical,backend,critical,HIGH: Potential security breach or unauthorized access,UNKNOWN RISK: Requires human evaluation,90.0
+Network packet loss detected on core router,critical,network,critical,MEDIUM: User experience degradation,RISK: Degraded user experience → potential customer impact,75.0
+Database replication lag detected,critical,database,false_positive,HIGH: Potential data integrity or availability risk,UNKNOWN RISK: Requires human evaluation,30.0
+CPU usage high on database server,critical,database,false_positive,HIGH: Potential data integrity or availability risk,RISK: Resource exhaustion → possible system slowdown or crash,30.0
+Backend API error rate increased,critical,backend,false_positive,UNKNOWN: Requires manual assessment,UNKNOWN RISK: Requires human evaluation,25.0
+Frontend page load latency exceeds threshold,critical,frontend,false_positive,MEDIUM: User experience degradation,RISK: Degraded user experience → potential customer impact,25.0
+Email digest sent successfully,informational,email,informational,UNKNOWN: Requires manual assessment,UNKNOWN RISK: Requires human evaluation,20.0
+User password reset confirmation sent,informational,email,informational,UNKNOWN: Requires manual assessment,UNKNOWN RISK: Requires human evaluation,20.0
+False alarm from monitoring sensor,false_positive,network,false_positive,UNKNOWN: Requires manual assessment,UNKNOWN RISK: Requires human evaluation,15.0
+Duplicate alert cleared automatically,false_positive,frontend,false_positive,UNKNOWN: Requires manual assessment,UNKNOWN RISK: Requires human evaluation,15.0

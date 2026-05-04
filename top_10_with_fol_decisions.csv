@@ -1,0 +1,11 @@
+message,historical_severity,system,predicted_severity,priority_score,FOL_decision
+Multiple failed login attempts detected,critical,backend,critical,-1,ESCALATE: Notify on-call engineer
+Network packet loss detected on core router,critical,network,critical,0,REVIEW: Manual inspection required
+Backend API error rate increased,critical,backend,false_positive,1,AUTO-CLOSE: No action needed
+Service restarted after planned maintenance,informational,backend,informational,1,SUPPRESS: Routine informational
+CPU usage high on database server,critical,database,false_positive,2,AUTO-CLOSE: No action needed
+Database replication lag detected,critical,database,false_positive,2,AUTO-CLOSE: No action needed
+Frontend page load latency exceeds threshold,critical,frontend,false_positive,2,AUTO-CLOSE: No action needed
+Nightly backup completed successfully,informational,storage,informational,2,SUPPRESS: Routine informational
+Routine maintenance notice for storage cluster,informational,storage,informational,2,SUPPRESS: Routine informational
+Email digest sent successfully,informational,email,informational,2,REVIEW: Manual inspection required
